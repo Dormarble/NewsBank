@@ -1,0 +1,18 @@
+.link_home, .link_economy {
+    text-align: center;
+    flex: 1;
+    margin-left: 2px;
+    margin-right: 2px;
+    padding-top: 7px;
+    text-decoration: none;
+    color: #e3e3e3;
+    background-color: #272727;
+    border-radius: 5px;
+}
+
+.navigation_menu {
+    width: 700px;
+    height: 30px;
+    display: flex;
+    justify-content: space-around;
+}

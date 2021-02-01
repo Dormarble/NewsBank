@@ -1,0 +1,29 @@
+{
+  "name": "newsbank",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "start": "babel-node main.js",
+    "dev": "nodemon main.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.11.4",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.11.0",
+    "axios": "^0.19.2",
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "^1.4.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "mongoose": "^5.9.27",
+    "passport": "^0.4.1",
+    "passport-local": "^1.0.0",
+    "pbkdf2-password": "^1.2.1",
+    "session-file-store": "^1.4.0"
+  }
+}

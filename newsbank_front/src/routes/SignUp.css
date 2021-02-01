@@ -1,0 +1,33 @@
+.sign_up_content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign_up_form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    width: 200px;
+    font-size: 1.1rem;
+    margin-top: 1rem;
+}
+
+small {
+    width: 200px;
+    font-size: 0.7rem;
+    color: orange;
+}
+
+button {
+    margin-top: 2rem;
+}
+
+.hide {
+    display: none;
+}
